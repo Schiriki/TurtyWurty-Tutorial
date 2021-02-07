@@ -32,6 +32,7 @@ public class TutorialTurty
         ItemInit.ITEMS.register(bus);
         BlockInit.BLOCKS.register(bus);
         
+        // register ores
         MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGH, OreGeneration::generateOres);
 
         MinecraftForge.EVENT_BUS.register(this);
