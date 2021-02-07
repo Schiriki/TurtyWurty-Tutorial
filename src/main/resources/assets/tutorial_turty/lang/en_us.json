@@ -1,0 +1,10 @@
+{
+	"item.tutorial_turty.example_item": "Example Item",
+	"item.tutorial_turty.special_item": "Special Item",
+	"block.tutorial_turty.example_block": "Marcsite",
+	"tooltip.tutorial_turty.special_item.hold_shift": "Hold \u00A7e Shift \u00A77 for more Information",
+	"block.tutorial_turty.custom_block": "Cutting Board",
+	"ItemGroup.tutorialtab": "Tutorial Tab",
+	"item.tutorial_turty.example_food": "Example Food",
+	"block.tutorial_turty.phantom_ore": "Phantom Erz"
+}

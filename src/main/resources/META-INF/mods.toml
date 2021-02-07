@@ -1,0 +1,43 @@
+
+modLoader="javafml" #mandatory
+
+loaderVersion="[35,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+
+license="All rights reserved"
+
+issueTrackerURL="http://my.issue.tracker/" #optional
+
+[[mods]] #mandatory
+
+modId="tutorial_turty" #mandatory
+
+version="${file.jarVersion}" #mandatory
+
+displayName="Tutorial Turty Mod" #mandatory
+
+credits="Thanks for this example mod goes to Java" #optional
+
+authors="Schiriki" #optional
+
+description='''
+New Tutorial for 1.16.4 - hopefully biomes!
+'''
+
+[[dependencies.examplemod]] #optional
+
+    modId="forge" #mandatory
+
+    mandatory=true #mandatory
+
+    versionRange="[35,)" #mandatory
+
+    ordering="NONE"
+
+    side="BOTH"
+
+[[dependencies.examplemod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.4,1.17)"
+    ordering="NONE"
+    side="BOTH"

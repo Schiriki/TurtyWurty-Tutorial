@@ -1,0 +1,7 @@
+{
+	"variants": {
+		"": {
+			"model": "tutorial_turty:block/example_block"
+			}
+	}
+}
